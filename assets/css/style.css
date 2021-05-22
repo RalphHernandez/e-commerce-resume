@@ -1,0 +1,220 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #3AAFA9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3AAFA9;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# resume
+--------------------------------------------------------------*/
+.resume{
+  padding-top: 7rem;
+}
+
+.resume .container .row .info-box p{
+  font-size: 1.40rem;
+}
+
+.resume .info-box .multiline{
+  line-height: 2rem;
+}
+
+.resume h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.resume h2{
+  font-weight: bold;
+}
+
+.resume ul {
+  padding-left: 1rem;
+}
+
+.resume li {
+  padding-top: 1rem;
+}
+
+.resume .summary, .education{
+  padding-top: 3rem;
+}
+
+.resume .school{
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.resume .info-box .references p{
+  padding-top: 1rem;
+}
+
+.resume .info-box .references .school{
+  margin-top: 0;
+}
+/*--------------------------------------------------------------
+# contact-info
+--------------------------------------------------------------*/
+
+.resume .address{
+  padding-top: 1rem;
+}
+
+.resume hr{
+  margin: auto;
+  width: 68rem;
+  border: 2px solid brown;
+}
+
+/*--------------------------------------------------------------
+# box
+--------------------------------------------------------------*/
+
+.resume .info-box {
+  color: #444444;
+  text-align: left;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 7rem 0 7rem 0;
+}
+
+.resume .info-box i {
+  font-size: 32px;
+  color: #3AAFA9;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #fef5f4;
+}
+
+.resume .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.resume .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.resume .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+}
+
+.resume .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.resume .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.resume .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.resume .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.resume .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.resume .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.resume .php-email-form input, .resume .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.resume .php-email-form input:focus, .resume .php-email-form textarea:focus {
+  border-color: #3AAFA9;
+}
+
+.resume .php-email-form input {
+  padding: 10px 15px;
+}
+
+.resume .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.resume .php-email-form button[type="submit"] {
+  background: #3AAFA9;
+  border: 0;
+  border-radius: 50px;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.resume .php-email-form button[type="submit"]:hover {
+  background: #3AAFA9;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
